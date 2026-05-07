@@ -51,34 +51,12 @@ Effective inventory and sales management are critical in the retail sector. This
 ## Tools & Technologies
 
 - SQL (Common Table Expressions, Joins, Filtering)
-- Python (Pandas, Matplotlib, Seaborn, SciPy)
+- Python (Pandas, Matplotlib, SciPy)
 - Power BI (Interactive Visualizations)
 - GitHub
-
+  
 ---
-## Project Structure
 
-```
-vendor-performance-analysis/
-│
-├── README.md
-├── .gitignore
-├── requirements.txt
-├── Vendor Performance Report.pdf
-│
-├── notebooks/                  # Jupyter notebooks
-│   ├── exploratory_data_analysis.ipynb
-│   ├── vendor_performance_analysis.ipynb
-│
-├── scripts/                    # Python scripts for ingestion and processing
-│   ├── ingestion_db.py
-│   └── get_vendor_summary.py
-│
-├── dashboard/                  # Power BI dashboard file
-│   └── vendor_performance_dashboard.pbix
-```
-
----
 ## Data Cleaning & Preparation
 
 - Removed transactions with:
@@ -125,9 +103,7 @@ vendor-performance-analysis/
   - Inventory Turnover
   - Bulk Purchase Savings
   - Performance Heatmaps
-
-![Vendor Performance Dashboard](images/dashboard.png)
-
+    
 ---
 ## How to Run This Project
 
